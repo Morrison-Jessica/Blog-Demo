@@ -1,7 +1,7 @@
 ---
 layouts: post
 title: "A Workflow I Can Reuse"
-date: 2026-01-16
+date: 2026-01-13
 ---
 
 I tend to value workflows that are easy to structure, repeat and don’t require much setup.
