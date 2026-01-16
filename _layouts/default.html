@@ -20,12 +20,12 @@
     <header class="bg-slate-800 text-slate-100 p-4 shadow-md">
         <nav class="max-w-3xl mx-auto flex justify-between items-center">
           <div class="text-lg font-semibold">
-            <a href="{{ '/' | https://morrison-jessica.github.io/Blog-Demo }}" class="hover:text-sky-300">Home</a>
+            <a href="{{ '/' | relative_url }}" class="hover:text-sky-300">Home</a>
           </div>
           <div class="space-x-4">
-            <!-- <a href="{{ '/about.html' | relative_url }}" class="hover:text-sky-300">About</a> -->
-            <!-- <a href="{{ '/posts.html' | relative_url }}" class="hover:text-sky-300">Posts</a>
-          </div> -->
+            <a href="{{ '/about.html' | relative_url }}" class="hover:text-sky-300">About</a>
+            <a href="{{ '/posts.html' | relative_url }}" class="hover:text-sky-300">Posts</a>
+          </div>
         </nav>
     </header>
       
