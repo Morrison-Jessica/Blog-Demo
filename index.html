@@ -1,14 +1,16 @@
+---
+layouts: default
+title: Home
+---
+<!-- == YAML Front Matter (page settings): --- line means metadata starts/ends here == -->
+
 <!-- index.html Is a Page.
 contains:
 page-specific content
 logic (looping through posts)
 no full HTML structure -->
 
-<!-- == YAML Front Matter (page settings): --- line means metadata starts/ends here == -->
----
-layout: default
-title: Home
----
+
     <h1 class="text-4xl font-bold mb-6">My Blog</h1>
 <ul class="space-y-2">
   {% for post in site.posts %}
