@@ -7,6 +7,19 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <header class="bg-gray-800 text-white p-4 text-center">
+        <nav class="space-x-4">
+          <a href="/" class="hover:underline">Home</a>
+          <a href="/about.html" class="hover:underline">About</a>
+        </nav>
+    </header>  
+
+    <main class="max-w-3xl mx-auto p-6">
+    {{ content }}
+    </main>
     
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2026 My Blog</p>
+    </footer>      
 </body>
 </html>
